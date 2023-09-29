@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 218px 1024PX;
+    grid-template-rows: 56px 968px;
+    grid-template-areas: 
+    "header header header header"
+     "nav main main main  " 
+     "footer footer footer footer";
+     
+}
+
+header{
+    background-color: #ffffff;
+    grid-area: header;
+    margin-top: 2px;
+    
+}
+
+.perfil{
+    position: relative;
+    background-color: #ffffff;
+    height: 50px;
+    width: 300px;
+    margin-top: -45px;
+    margin-left: 1200px;
+}
+
+.cria{
+    position: relative;
+    height: 150px;
+    margin-top: -50px;
+    margin-left: 0px;
+}
+
+.sino{
+    position: absolute;
+    height: 120px;
+    margin-top: -35px;
+    margin-left: -170px;
+
+}
+
+.foto{
+    position: relative;
+    background-color: #000;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    margin-top: -95px;
+    margin-left: 250px;
+}
+
+main{
+    background-color: #f9f9f9;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px;
+    
+}
+
+#search{
+    margin-left: 560px;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.search{
+    margin-top: -40px;
+    margin-left: 908px;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+    width: 57px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.logo{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    margin: 0 60px;
+}
+
+#logo{
+    margin: 8px;
+}
+
+.menu{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+}
+
+#menu-1{
+    height: 24px;
+    width: 24px;
+    margin: 6px 20px;
+}
+
+.search-1{
+    height: 31px;
+    margin: 2px 11px;
+}
+
+nav{
+    background-color: #ffffff;
+    grid-area: nav;
+}
+
+
+
+#todos{
+    margin-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#icons{
+    position: absolute;
+    height: 300px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: -3px;
+
+}
+
+.inicio{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    
+}
+
+.explorar{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.inscrições{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.music{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.gostei{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.videos{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.baixar{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.filmes{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.aprender{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.esportes{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    
+}
+
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 250px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+
+}
+
+
+
+p{
+    width: 200px;
+}
+
+.i1{
+    margin-bottom: 24px;
+}
+
+.i2{
+    margin-bottom: 24px;
+}
+
+.i3{
+    margin-bottom: 21px;
+}
+
+.i4{
+    margin-bottom: 23px;
+}
+
+.i5{
+    margin-bottom: 23px;
+}
+
+.i6{
+    margin-bottom: 22px;
+}
+
+.i7{
+    margin-bottom: 24px;
+}
+
+.i8{
+    margin-bottom: 23px;
+}
+
+.i9{
+    margin-bottom: 24px;
+}
+
+.i10{
+    margin-bottom: 24px;
+}
